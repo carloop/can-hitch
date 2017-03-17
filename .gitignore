@@ -37,5 +37,5 @@ eagle.epf
 *.info
 
 *.eps
-CAN-breakout-v1_OrderUploadDigiKey.csv
-CAN-breakout-v1_UpdatePartNumAttributes.scr
+*_OrderUploadDigiKey.csv
+*_UpdatePartNumAttributes.scr

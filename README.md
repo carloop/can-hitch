@@ -6,9 +6,9 @@ Connect microcontrollers together with CAN bus.
 
 ![Bottom](layout-bottom.png)
 
-- [Schematics](CAN-breakout-v1.pdf)
-- [Bill of materials](CAN-breakout-v1_BOM.csv)
-- [Order on OSH Park](https://oshpark.com/shared_projects/jnhm2sj7)
+- [Schematics](CAN-breakout-v2.pdf)
+- [Bill of materials](CAN-breakout-v2_BOM.csv)
+- [Order on OSH Park](https://oshpark.com/shared_projects/lQWzjZzS)
 
 ## License
 
