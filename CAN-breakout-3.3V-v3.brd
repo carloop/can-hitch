@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,37 +23,37 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -173,19 +173,111 @@
 <text x="26.67" y="2.54" size="1.27" layer="21" ratio="16" align="center-left">L</text>
 <text x="13.5128" y="14.224" size="1.016" layer="22" ratio="16" rot="MR0" align="center">CAN Transceiver</text>
 <text x="16.891" y="7.6835" size="0.762" layer="21" ratio="16" align="top-center">Termination</text>
-<text x="4.5212" y="14.6939" size="1.016" layer="30" ratio="16" rot="MR180">V3</text>
 <text x="27.5082" y="0.7366" size="0.8382" layer="22" rot="MR90" align="top-left">CAN High (Yellow): H
 CAN Low (Green): L
 Use twisted pair</text>
 <text x="21.5646" y="0.7366" size="0.8382" layer="22" rot="MR90" align="top-left">Screw terminals
 are the same bus</text>
-<text x="3.7084" y="13.843" size="0.8382" layer="22" rot="MR270" align="top-left">Particle pins
-RX=D2  TX=D1</text>
 <text x="2.2479" y="2.286" size="0.9144" layer="22" ratio="16" rot="MR90" align="center">JV
 2017</text>
 <text x="13.8176" y="0.7366" size="0.8382" layer="22" rot="MR90" align="top-left">Close jumper at
 both ends of bus
 for termination</text>
+<text x="7.874" y="9.144" size="1.27" layer="22" font="vector" ratio="16" rot="SMR90" align="top-center">Carloop</text>
+<text x="5.08" y="7.62" size="1.016" layer="22" font="vector" ratio="16" rot="SMR90" align="top-center">carloop.io</text>
+<polygon width="0" layer="22">
+<vertex x="8.7035125" y="2.79361875"/>
+<vertex x="8.68675" y="3.00545625"/>
+<vertex x="8.6383625" y="3.207003125"/>
+<vertex x="8.557590625" y="3.402075"/>
+<vertex x="8.44824375" y="3.580003125"/>
+<vertex x="8.31184375" y="3.739640625"/>
+<vertex x="8.15220625" y="3.876040625"/>
+<vertex x="7.974278125" y="3.9853875"/>
+<vertex x="7.77920625" y="4.066159375"/>
+<vertex x="7.577659375" y="4.114546875"/>
+<vertex x="7.365440625" y="4.131309375"/>
+<vertex x="7.16884375" y="4.1172125"/>
+<vertex x="6.976440625" y="4.074540625"/>
+<vertex x="6.792796875" y="4.003675"/>
+<vertex x="6.621346875" y="3.9061375"/>
+<vertex x="6.46628125" y="3.7846"/>
+<vertex x="6.46628125" y="3.19405"/>
+<vertex x="6.581725" y="3.388359375"/>
+<vertex x="6.738315625" y="3.551428125"/>
+<vertex x="6.928053125" y="3.674490625"/>
+<vertex x="7.14065" y="3.751071875"/>
+<vertex x="7.365440625" y="3.77698125"/>
+<vertex x="7.669096875" y="3.728975"/>
+<vertex x="7.94265625" y="3.588765625"/>
+<vertex x="8.16020625" y="3.371215625"/>
+<vertex x="8.300415625" y="3.09765625"/>
+<vertex x="8.348421875" y="2.794"/>
+<vertex x="8.300415625" y="2.49034375"/>
+<vertex x="8.16020625" y="2.216784375"/>
+<vertex x="7.94265625" y="1.999234375"/>
+<vertex x="7.669096875" y="1.859025"/>
+<vertex x="7.365440625" y="1.81101875"/>
+<vertex x="7.061784375" y="1.859025"/>
+<vertex x="6.788225" y="1.999234375"/>
+<vertex x="6.570675" y="2.216784375"/>
+<vertex x="6.43046875" y="2.49034375"/>
+<vertex x="6.3824625" y="2.794"/>
+<vertex x="6.3824625" y="4.55803125"/>
+<vertex x="6.02810625" y="4.55803125"/>
+<vertex x="6.02810625" y="2.794"/>
+<vertex x="6.04486875" y="2.5821625"/>
+<vertex x="6.09325625" y="2.380615625"/>
+<vertex x="6.174028125" y="2.18554375"/>
+<vertex x="6.283375" y="2.007615625"/>
+<vertex x="6.419775" y="1.847978125"/>
+<vertex x="6.5794125" y="1.711578125"/>
+<vertex x="6.757340625" y="1.60223125"/>
+<vertex x="6.9524125" y="1.521459375"/>
+<vertex x="7.1539875" y="1.473071875"/>
+<vertex x="7.366178125" y="1.456309375"/>
+<vertex x="7.5780125" y="1.473071875"/>
+<vertex x="7.7795625" y="1.521459375"/>
+<vertex x="7.974634375" y="1.60223125"/>
+<vertex x="8.1525625" y="1.711578125"/>
+<vertex x="8.3122" y="1.847978125"/>
+<vertex x="8.4486" y="2.007615625"/>
+<vertex x="8.557946875" y="2.18554375"/>
+<vertex x="8.63874375" y="2.380615625"/>
+<vertex x="8.68713125" y="2.5821625"/>
+<vertex x="8.70389375" y="2.79438125"/>
+</polygon>
+<polygon width="0" layer="22">
+<vertex x="6.383221875" y="1.749678125"/>
+<vertex x="6.377128125" y="1.755775"/>
+<vertex x="6.37103125" y="1.761871875"/>
+<vertex x="6.364934375" y="1.767965625"/>
+<vertex x="6.358840625" y="1.7740625"/>
+<vertex x="6.35274375" y="1.780159375"/>
+<vertex x="6.272353125" y="1.867409375"/>
+<vertex x="6.1992" y="1.960753125"/>
+<vertex x="6.13405" y="2.0598125"/>
+<vertex x="6.07728125" y="2.163825"/>
+<vertex x="6.029275" y="2.27203125"/>
+<vertex x="6.029275" y="1.02996875"/>
+<vertex x="6.383603125" y="1.02996875"/>
+<vertex x="6.383603125" y="1.750059375"/>
+</polygon>
+<text x="9.2456" y="5.3086" size="0.8382" layer="22" rot="MR90" align="top-left">Made by</text>
+<text x="4.2672" y="14.6939" size="1.016" layer="30" ratio="16" rot="MR180">V3</text>
+<text x="17.78" y="11.938" size="1.27" layer="21" ratio="16" align="center-left">H</text>
+<text x="17.78" y="9.906" size="1.27" layer="21" ratio="16" align="center-left">L</text>
+<text x="4.826" y="4.318" size="1.016" layer="51" rot="R90">JP1</text>
+<text x="3.048" y="1.524" size="1.016" layer="51">C1</text>
+<text x="10.16" y="6.604" size="1.016" layer="51">C2</text>
+<text x="10.16" y="4.064" size="1.016" layer="51">R1</text>
+<text x="10.16" y="1.524" size="1.016" layer="51">R2</text>
+<text x="9.906" y="10.922" size="1.016" layer="51">IC1</text>
+<text x="15.494" y="6.604" size="1.016" layer="51">JP2</text>
+<text x="25.4" y="2.54" size="1.016" layer="51" rot="R90">JP3</text>
+<text x="25.146" y="10.16" size="1.016" layer="51" rot="R90">JP4</text>
+<text x="3.81" y="16.002" size="1.016" layer="51">All components go on top</text>
+<text x="4.572" y="7.62" size="0.508" layer="51" rot="R90">(Do not populate)</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1331,80 +1423,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="Spark">
-<packages>
-<package name="SPARK_LOGO2">
-<polygon width="0.0254" layer="29">
-<vertex x="2.2606" y="1.1684"/>
-<vertex x="1.6764" y="1.2954"/>
-<vertex x="1.6002" y="1.1684"/>
-<vertex x="1.6764" y="1.0414"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="0.0254" y="1.1684"/>
-<vertex x="0.6096" y="1.2954"/>
-<vertex x="0.7112" y="1.1684"/>
-<vertex x="0.6096" y="1.0414"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="0.381" y="1.9304"/>
-<vertex x="0.8636" y="1.1684"/>
-<vertex x="0.3556" y="0.3556"/>
-<vertex x="1.143" y="0.8636"/>
-<vertex x="1.9304" y="0.381"/>
-<vertex x="1.4224" y="1.1684"/>
-<vertex x="1.9304" y="1.9304"/>
-<vertex x="1.143" y="1.4478"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="1.143" y="2.286"/>
-<vertex x="1.016" y="1.6764"/>
-<vertex x="1.143" y="1.6002"/>
-<vertex x="1.27" y="1.6764"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="1.143" y="0.7112"/>
-<vertex x="1.016" y="0.635"/>
-<vertex x="1.143" y="0.0254"/>
-<vertex x="1.27" y="0.635"/>
-</polygon>
-<polygon width="0.0254" layer="51">
-<vertex x="2.2606" y="1.1684"/>
-<vertex x="1.6764" y="1.2954"/>
-<vertex x="1.6002" y="1.1684"/>
-<vertex x="1.6764" y="1.0414"/>
-</polygon>
-<polygon width="0.0254" layer="51">
-<vertex x="0.0254" y="1.1684"/>
-<vertex x="0.6096" y="1.2954"/>
-<vertex x="0.7112" y="1.1684"/>
-<vertex x="0.6096" y="1.0414"/>
-</polygon>
-<polygon width="0.0254" layer="51">
-<vertex x="0.381" y="1.9304"/>
-<vertex x="0.8636" y="1.1684"/>
-<vertex x="0.3556" y="0.3556"/>
-<vertex x="1.143" y="0.8636"/>
-<vertex x="1.9304" y="0.381"/>
-<vertex x="1.4224" y="1.1684"/>
-<vertex x="1.9304" y="1.9304"/>
-<vertex x="1.143" y="1.4478"/>
-</polygon>
-<polygon width="0.0254" layer="51">
-<vertex x="1.143" y="2.286"/>
-<vertex x="1.016" y="1.6764"/>
-<vertex x="1.143" y="1.6002"/>
-<vertex x="1.27" y="1.6764"/>
-</polygon>
-<polygon width="0.0254" layer="51">
-<vertex x="1.143" y="0.7112"/>
-<vertex x="1.016" y="0.635"/>
-<vertex x="1.143" y="0.0254"/>
-<vertex x="1.27" y="0.635"/>
-</polygon>
-</package>
-</packages>
-</library>
 <library name="CAN">
 <packages>
 <package name="SO8">
@@ -1657,7 +1675,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="IC1" library="CAN" package="SO8" value="SN65HVD232" x="10.795" y="11.303" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="TJA1049T-118" x="10.795" y="11.303" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="SN65HVD232DR" x="10.795" y="11.303" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R2" library="rcl" package="R1206" value="62" x="10.922" y="2.032" smashed="yes">
 <attribute name="NAME" x="10.922" y="0.762" size="0.635" layer="21" rot="R180" align="center"/>
@@ -1669,11 +1687,11 @@ design rules under a new name.</description>
 </element>
 <element name="C1" library="rcl" package="C1206" value="0.1u" x="3.81" y="2.032" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="12065C104KAT2A" x="3.81" y="2.032" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="3.81" y="0.762" size="0.635" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="3.81" y="0.762" size="0.635" layer="21" rot="R180" align="center"/>
 </element>
 <element name="JP1" library="SparkFun-Connectors" package="1X04" value="" x="2.54" y="12.7" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-0.635" y="13.97" size="1.27" layer="27" rot="R270"/>
-<attribute name="PARTNO" value="PREC005SAAN-RC" x="2.54" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="PREC004SAAN-RC" x="2.54" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="JP3" library="SparkFun-Connectors" package="1X02_2.54_SCREWTERM" value="" x="22.86" y="5.08" rot="R270">
 <attribute name="PARTNO" value="OSTVN02A150" x="22.86" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1681,16 +1699,13 @@ design rules under a new name.</description>
 <element name="JP4" library="SparkFun-Connectors" package="1X02_2.54_SCREWTERM" value="" x="22.86" y="12.7" rot="R270">
 <attribute name="PARTNO" value="OSTVN02A150" x="22.86" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$3" library="Spark" package="SPARK_LOGO2" value="SPARK_LOGO2" x="6.5532" y="4.1148" rot="MR270">
-<attribute name="BOM" value="EXCLUDE" x="6.5532" y="4.1148" size="1.778" layer="28" rot="MR270" display="off"/>
-</element>
 <element name="C2" library="rcl" package="C1206" value="0.01u" x="10.922" y="7.112" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="12065C103KAT2A" x="10.922" y="7.112" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="10.922" y="5.842" size="0.635" layer="25" align="center"/>
-<attribute name="VALUE" x="12.192" y="9.652" size="1.27" layer="27" rot="R180"/>
+<attribute name="NAME" x="10.922" y="5.842" size="0.635" layer="21" align="center"/>
 </element>
 <element name="JP2" library="CAN" package="2X2" value="" x="15.24" y="5.08" smashed="yes" rot="R270">
 <attribute name="VALUE" x="12.065" y="6.35" size="1.27" layer="27" rot="R270"/>
+<attribute name="PARTNO" value="PREC002DAAN-RC" x="15.24" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1817,22 +1832,22 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <errors>
-<approved hash="18,29,73508caa03009963"/>
 <approved hash="18,29,6004f90c0bc1f750"/>
-<approved hash="18,29,24c9d10c6b72db3f"/>
+<approved hash="18,29,73508caa03009963"/>
 <approved hash="18,29,5f2292192b1da3ae"/>
+<approved hash="18,29,24c9d10c6b72db3f"/>
 <approved hash="18,29,053559980b112b80"/>
-<approved hash="18,29,c4408c4c19c2bb76"/>
-<approved hash="18,29,9022934c35c14efa"/>
-<approved hash="18,29,4926cafd75d21cb1"/>
 <approved hash="18,29,c41698710de7bb38"/>
 <approved hash="18,29,90fc877121da4e7c"/>
 <approved hash="18,29,1b0a310a3dce6300"/>
+<approved hash="18,29,9022934c35c14efa"/>
+<approved hash="18,29,4926cafd75d21cb1"/>
+<approved hash="18,29,c4408c4c19c2bb76"/>
 <approved hash="18,29,1dc18e64d5eee580"/>
 <approved hash="18,30,977998891002fab9"/>
 <approved hash="18,30,9271854c0e49f8d1"/>
-<approved hash="18,30,481d32bec25f5959"/>
 <approved hash="18,30,4c33279ddd3253d7"/>
+<approved hash="18,30,481d32bec25f5959"/>
 </errors>
 </board>
 </drawing>

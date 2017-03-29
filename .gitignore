@@ -1,18 +1,10 @@
-# Ignore list for Eagle, a PCB layout tool
-
-# Lock files
-*.lck
+# Work-in-progress versions
+archive/
 
 # Backup files
 *.s#?
 *.b#?
 *.l#?
-
-# Eagle project file
-# It contains a serial number and references to the file structure
-# on your computer.
-# comment the following line if you want to have your project file included.
-eagle.epf
 
 # CAM files
 *.$$$
@@ -37,5 +29,12 @@ eagle.epf
 *.info
 
 *.eps
-*_OrderUploadDigiKey.csv
-*_UpdatePartNumAttributes.scr
+
+# Eagle lock files
+*.lck
+
+# Eagle settings files
+*.epf
+
+# Vim swap files
+*.sw*
