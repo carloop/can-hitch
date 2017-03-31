@@ -6,11 +6,10 @@ Connect microcontrollers together with CAN bus.
 
 ![Bottom](layout-bottom.png)
 
-- [Schematics](CAN-breakout-v2.pdf)
-- [Bill of materials](CAN-breakout-v2_BOM.csv)
-- [Order on OSH Park](https://oshpark.com/shared_projects/lQWzjZzS)
+- [Schematics](CAN-breakout-3.3V-v3.pdf)
+- [Bill of materials](CAN-breakout-3.3V-v3_BOM.csv)
 
 ## License
 
-Copyright 2017 Julien Vanier
+Copyright 2017 Carloop
 Released under the MIT license
