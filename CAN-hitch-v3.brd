@@ -23,23 +23,23 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -47,19 +47,19 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -165,24 +165,24 @@
 <text x="4.445" y="10.16" size="1.27" layer="21" ratio="16" align="center-left">RX</text>
 <text x="4.445" y="7.62" size="1.27" layer="21" ratio="16" align="center-left">GND</text>
 <text x="4.445" y="5.08" size="1.27" layer="21" ratio="16" align="center-left">3V3</text>
-<text x="10.795" y="14.5415" size="0.9144" layer="21" ratio="16" align="center">CAN Transceiver</text>
+<text x="10.795" y="14.5415" size="0.9144" layer="21" ratio="16" align="center">CAN Hitch</text>
 <text x="26.67" y="12.7" size="1.27" layer="21" ratio="16" align="center-left">H</text>
 <text x="26.67" y="10.16" size="1.27" layer="21" ratio="16" align="center-left">L</text>
 <text x="22.86" y="7.62" size="1.27" layer="21" ratio="16" align="center">CAN</text>
 <text x="26.67" y="5.08" size="1.27" layer="21" ratio="16" align="center-left">H</text>
 <text x="26.67" y="2.54" size="1.27" layer="21" ratio="16" align="center-left">L</text>
-<text x="13.5128" y="14.224" size="1.016" layer="22" ratio="16" rot="MR0" align="center">CAN Transceiver</text>
+<text x="11.938" y="7.62" size="1.778" layer="22" ratio="16" rot="MR270" align="center">CAN Hitch</text>
 <text x="16.891" y="7.6835" size="0.762" layer="21" ratio="16" align="top-center">Termination</text>
 <text x="27.5082" y="0.7366" size="0.8382" layer="22" rot="MR90" align="top-left">CAN High (Yellow): H
 CAN Low (Green): L
 Use twisted pair</text>
-<text x="21.5646" y="0.7366" size="0.8382" layer="22" rot="MR90" align="top-left">Screw terminals
+<text x="21.5646" y="2.0066" size="0.8382" layer="22" rot="MR90" align="top-left">Screw terminals
 are the same bus</text>
 <text x="2.2479" y="2.286" size="0.9144" layer="22" ratio="16" rot="MR90" align="center">JV
 2017</text>
-<text x="13.8176" y="0.7366" size="0.8382" layer="22" rot="MR90" align="top-left">Close jumper at
-both ends of bus
-for termination</text>
+<text x="18.6436" y="6.5786" size="0.8128" layer="22" rot="MR90" align="top-left">Close jumper
+at both ends
+of bus</text>
 <text x="7.874" y="9.144" size="1.27" layer="22" font="vector" ratio="16" rot="SMR90" align="top-center">Carloop</text>
 <text x="5.08" y="7.62" size="1.016" layer="22" font="vector" ratio="16" rot="SMR90" align="top-center">carloop.io</text>
 <polygon width="0" layer="22">
@@ -264,7 +264,7 @@ for termination</text>
 <vertex x="6.383603125" y="1.750059375"/>
 </polygon>
 <text x="9.2456" y="5.3086" size="0.8382" layer="22" rot="MR90" align="top-left">Made by</text>
-<text x="4.2672" y="14.6939" size="1.016" layer="30" ratio="16" rot="MR180">V3</text>
+<text x="9.6901" y="1.2192" size="1.016" layer="30" ratio="16" rot="MR90">V3</text>
 <text x="17.78" y="11.938" size="1.27" layer="21" ratio="16" align="center-left">H</text>
 <text x="17.78" y="9.906" size="1.27" layer="21" ratio="16" align="center-left">L</text>
 <text x="4.826" y="4.318" size="1.016" layer="51" rot="R90">JP1</text>

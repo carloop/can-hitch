@@ -2,9 +2,9 @@
 
 Connect microcontrollers together with CAN bus.
 
-![Top](layout-top.png)
+<img src="layout-top.png" width="250" title="Top">
 
-![Bottom](layout-bottom.png)
+<img src="layout-bottom.png" width="250" title="Top">
 
 - [Schematics](CAN-breakout-3.3V-v3.pdf)
 - [Bill of materials](CAN-breakout-3.3V-v3_BOM.csv)
