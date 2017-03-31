@@ -1,4 +1,5 @@
-# CAN Bus Transceiver Breakout
+# CAN Hitch
+## _A CAN Bus Transceiver Breakout_
 
 Connect microcontrollers together with CAN bus.
 
